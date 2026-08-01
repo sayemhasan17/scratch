@@ -13,6 +13,11 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    font-size: 2em;
 }
 
 .navlinks {
@@ -36,4 +41,18 @@
 .navbar, .banner {
     max-width: 1440px;
     margin: 0;
+}
+
+.banner{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-btn {
+    background-color: rgb(212, 72, 72);
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
 }
